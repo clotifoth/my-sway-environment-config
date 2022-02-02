@@ -4,9 +4,11 @@
 #
 # Read `man 5 sway` for a complete reference.
 
-exec wl-paste -t text --watch clipman store
+#exec wl-paste -t text --watch clipman store
 exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 
+bindsym Ctrl+c exec wl-copy
+bindsym Ctrl+v exec wl-paste
 
 ### Variables
 #
