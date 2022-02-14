@@ -7,8 +7,8 @@
 #exec wl-paste -t text --watch clipman store
 exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 
-bindsym Ctrl+c exec wl-copy
-bindsym Ctrl+v exec wl-paste
+bindsym Ctrl+Shift+c exec wl-copy
+bindsym Ctrl+Shift+v exec wl-paste
 
 ### Variables
 #
