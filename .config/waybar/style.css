@@ -9,7 +9,7 @@
   border: none;
   border-radius: 0;
   font-family: Input, "Font Awesome 5 Free";
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   min-height: 0;
 }
@@ -41,6 +41,7 @@ window#waybar {
   background-color: @black;
   border-top: 3px solid @black;
   border-bottom: 3px solid @red;
+  font-size: 30px;
 }
 
 #custom-usbguard,
@@ -79,6 +80,16 @@ window#waybar {
 #clock {
   padding: 0 6px;
   margin: 0 6px;
+}
+
+#custom-hibernate {
+  min-width: 30px;
+  background-image: url("img/hibernate.png");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: @foreground;
+  padding: 12px 5px;
 }
 
 #custom-vpn,
