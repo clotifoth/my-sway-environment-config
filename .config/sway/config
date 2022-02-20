@@ -4,7 +4,7 @@
 #
 # All sway.d/99_*.conf files are in .gitignore
 
-include ~/.config/sway/sway.d/010-init/*.conf
+include $HOME/.config/sway/sway.d/010-init/*.conf
 include $HOME/.config/sway/sway.d/020-output/*.conf
 include $HOME/.config/sway/sway.d/030-workspace/*.conf
 include $HOME/.config/sway/sway.d/040-input/*.conf
